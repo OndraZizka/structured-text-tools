@@ -23,6 +23,29 @@
     - **Database table customization:** yes, can create custom table then import into it
     - **SQL dump:** yes
     - **Other:** 
+- [CsvCruncher](https://github.com/OndraZizka/csv-cruncher)
+    - **Documentation link:** <https://github.com/OndraZizka/csv-cruncher/blob/master/README.md#usage>
+    - **Programming language:** Kotlin
+    - **Database:** HSQLDB
+    - **Column names from header row:** yes, optional
+    - **Custom character encoding:** yes, what goes in goes out
+    - **Custom input field separator:** no, not yet
+    - **Custom input record separator:** no, not yet
+    - **Custom output field separator:** no, not yet
+    - **Custom output record separator:** no, not yet
+    - **JOINs:** yes
+    - **Use as library:** yes, Java and JVM (Kotlin, Groovy, Scala, ...)
+    - **Input formats:** CSV, JSON
+    - **Output formats:** CSV, JSON
+    - **Custom table names:** yes
+    - **Custom column names:** yes
+    - **Keep database file:** yes
+    - **Skip input fields:** yes, using `SELECT`
+    - **Skip input records (lines):** yes, using `WHERE` or `HAVING`
+    - **Merge input fields:** yes, using any SQL constructs
+    - **Database table customization:** yes
+    - **SQL dump:** no, but possible from HSQLDB.
+    - **Other:**
 - [csvq](https://github.com/mithrandie/csvq)
     - **Documentation link:** <https://mithrandie.github.io/csvq/reference>
     - **Programming language:** Go
